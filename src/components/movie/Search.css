@@ -1,0 +1,16 @@
+.size{
+     width:100%;
+}
+.form{
+   margin-bottom:5rem;
+
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+
+}
+.card a{
+    font-size: 8px;
+}
