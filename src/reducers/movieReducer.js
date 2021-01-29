@@ -1,20 +1,28 @@
-import{GET_USERS ,GET_USERBYNAME,SET_LOADING} from '../actions/types'
+import{GET_MOVIES,SET_LOADING,GET_SINGLEMOVIE} from '../actions/types'
 const initialState = {
-users:[],
-user:{},
+movies:[],
+singlemovie:{},
 loading:false
 }
 
 export default function  (state = initialState , action ){
     switch(action.type){
-    case GET_USERS:
+    case GET_MOVIES:
     return {
    ...state ,
    loading:false,
-   users:action.payload
+   movies:action.payload
 
   };
-   case SET_LOADING:
+
+  case GET_SINGLEMOVIE:
+   return {
+  ...state ,
+  loading:false,
+  singlemovie:action.payload
+
+ };
+case SET_LOADING:
      return {
         ...state,
         loading: true

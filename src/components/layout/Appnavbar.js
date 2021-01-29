@@ -1,17 +1,11 @@
-import React ,{Component, Fragment} from 'react';
-import { Link } from 'react-router-dom'
-
+import React from 'react';
 const Navbarapp = ()=>{
  return(
-    <nav className="navbar bg-dark">
+  <nav class="navbar navbar-dark bg-dark">
     <h1>
-      <a href="index.html"><i className="fas fa-code"></i>GithubFinder</a>
+      <a href="index.html"><i className="fas fa-code"></i>MovieDb</a>
     </h1>
-    <ul>
-      <li> <Link to ='/'>Home</Link></li>
-      <li> <Link to ='/about'>About</Link></li>
-    </ul>
-  </nav>
+   </nav>
  )
 }
 

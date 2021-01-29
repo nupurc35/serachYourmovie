@@ -1,4 +1,4 @@
-export  const GET_USERS           = 'GET_USERS'
-export  const GET_USERBYNAME      = 'GET_USERBYNAME'
-export  const SET_LOADING         = 'SET_LOADING'
+export  const GET_MOVIES     ='GET_MOVIES'
+export  const GET_SINGLEMOVIE     ='GET_SINGLEMOVIE'
+export  const SET_LOADING    ='SET_LOADING'
 

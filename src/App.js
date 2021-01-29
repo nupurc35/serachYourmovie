@@ -1,9 +1,6 @@
-import React, { Component, Fragment } from 'react'
+import React, {Fragment } from 'react'
 import './App.css';
 import Navbarapp from './components/layout/Appnavbar'
-import Home from './components/pages/Home'
-import About from './components/pages/About'
-import { Container } from 'reactstrap';
 import { createBrowserHistory } from 'history';
 import {Router, Route, Switch } from "react-router-dom";
 import {Provider} from 'react-redux'
@@ -25,12 +22,11 @@ const history = createBrowserHistory();
          <Movies></Movies>
         </Fragment>)}
      ></Route> 
-      <Route exact path = "/about" component   = {About} />
-      <Route exact path = '/user/:login' render={props=>(<Fragment>
-           <Singlemovie  {...props} getuser={this.getuser} loading={this.state.loading} user={this.state.user}></Singlemovie>
+      <Route exact path = '/singlemovie/:id' render={props=>(<Fragment>
+           <Singlemovie ></Singlemovie>
       </Fragment>)}></Route>
     </Switch>
-    </section>
+  </section>
  </div>
  </Router>
 </Provider>

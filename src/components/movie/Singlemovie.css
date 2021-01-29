@@ -1,0 +1,44 @@
+.rating-box{
+    display: flex;
+
+}
+.singleposter{
+    width: 200px;
+    height: auto;
+}
+
+.rating{
+    padding:14px;
+    background-color: #bb1313;
+    width: 206px;
+    margin-right: 20px;
+}
+
+.value{
+  text-align: center;
+
+}
+.source{
+    text-align: center;
+}
+
+.source p{
+    color: #cebdbd;
+}
+
+.value p{
+    color:black;
+}
+    
+p{
+    font-size: 0.8rem;
+    font-family: fantasy;
+}
+
+ .back{
+    width: 100px;
+    height: 26px;
+    font-size: 8px !important;
+    padding-top: 8px !important;
+}
+
